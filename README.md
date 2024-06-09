@@ -1,37 +1,59 @@
 # Personal-Bookshelf
 
-This is a React application that allows users to search for books and maintain a personal bookshelf in the browser using localStorage.
+This is a React application that allows users to search for books using the Open Library API and maintain a personal bookshelf in the browser using localStorage.
 
-## Prerequisites
+## Features
 
-Before you begin, ensure you have met the following requirements:
+- Real-time search results as the user types.
+- Display of search results in a list of cards.
+- Ability to add books from the search results to a personal bookshelf.
+- Persistent storage of the user's bookshelf using localStorage.
+- Separate page to display the user's personal bookshelf.
+- Button on the search results page directing users to their personal bookshelf page.
 
-* You have installed the latest version of Node.js and npm.
+## Getting Started
 
-## Setting Up Personal Bookshelf Locally
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-To install Personal Bookshelf, follow these steps:
+### Prerequisites
 
-1. Clone the repo:
+- Node.js and npm installed on your machine. You can download Node.js from here.
+
+### Installing
+
+1. Clone the repository to your local machine using the command:
    ```bash
-   git clone https://github.com/bhumikhokhani/personal-bookshelf.git
+   git clone <repository-url>
 
-2. Navigate into the project directory:
+2. Navigate to the project directory:
    ```bash
-   cd personal-bookshelf
+   cd Personal-Bookshelf
 
 3. Install the dependencies:
    ```bash
    npm install
 
-## Running Personal Bookshelf
-To run Personal Bookshelf, follow these steps:
+### Running the Application
 
-1. Start the development server:
+1. Start the application:
    ```bash
    npm start
 
-2. Open your web browser and visit http://localhost:3000.
+2. Open your browser and visit http://localhost:3000
+
+## Built With
+
+1. React - The web framework used
+2. Open Library API - API used for fetching book data
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Author
+
+[Bhumi Khokhani](https://www.linkedin.com/in/bhumikhokhani/)
 
 ## Contact
-If you want to contact me you can reach me at bhumikhokhani@gmail.com or https://www.linkedin.com/in/bhumikhokhani/
+
+If you want to contact me you can reach me at bhumikhokhani@gmail.com
