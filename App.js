@@ -1,8 +1,8 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import BookSearchPage from './pages/BookSearchPage';
-import PersonalBookshelfPage from './pages/PersonalBookshelfPage';
+import BookSearchPage from './BookSearchPage';
+import PersonalBookshelfPage from './PersonalBookshelfPage';
 
 function App() {
   return (
@@ -20,3 +20,4 @@ function App() {
 }
 
 export default App;
+
